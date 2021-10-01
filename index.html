@@ -17,16 +17,15 @@
             <a href="index.html">Inicio</a>
             <a href="salud.html">Salud</a>
             <a href="ciencia.html">Ciencia</a>
-            <a href="Economia.html">Economía</a>
+            <a href="Economia.html" target="blank">Economía</a>
             <a href="politica.html">Política</a>
-            <a href="">Tecnología</a>
+            <a href="tecnologia.html">Tecnología</a>
         </nav>
         <section class="sesion-de-presentacion">
             <h2 class="h2-presentacion">Noticias Aguachica</h2>
             <p>En esta página vas a encontrar las noticias más importantes de la región</p>
         </section>
     </header>
-
     <main class="contenedor-de-noticias">
         <h1>Noticias más importantes del día</h1>
         <section class="section-1">
@@ -39,11 +38,10 @@
                 <p>Con base en la evidencia de los ensayos clínicos con personas de 16 años de edad o más, la vacuna de Pfizer-BioNTech resultó efectiva en un 95 % para prevenir casos de infecciones por el virus del COVID-19 confirmados en laboratorio en personas sin evidencia de infecciones anteriores que recibieron las dos dosis.</p>
             </article>
         </section>
-
         <section class="section-2">
             <h2>Ciencia</h2>
             <article>
-                <h3>La nasa esta apuntpo de llegar a marte</h3>
+                <h3>La nasa esta apunto de llegar a marte</h3>
                 <div class="imagen-noticia">
                     <img src="imagenes/ciencia.jpg" alt="ciencia" width="200px">
                 </div>
@@ -62,7 +60,6 @@
                 <p>Los principales resultados señalan unas pérdidas económicas que varían entre $4,6 billones y $59 billones por mes de acuerdo con los escenarios de aislamiento considerados, cifras que representan entre 0,5% y 6,1% del PIB nacional</p>
             </article>
         </section>
-  
         <section class="section-4">
             <h2>Política</h2>
             <article>
@@ -73,7 +70,6 @@
                 <p>El ministro de Hacienda de Colombia, José Manuel Restrepo, presentó hoy, martes 13 de julio de 2021, el grueso del contenido de la reforma tributaria que será radicada con mensaje de urgencia en el Congreso el 20 de julio..</p>
             </article>
         </section>
-
         <section class="section-5">
             <h2>Tecnología</h2>
             <article>
@@ -84,8 +80,51 @@
                 <p>El nombre original de la aplicación es Douyin que significa "sacudir la música" en chino. Este nombre le viene bien, ya que se trata de una red social basada en compartir pequeños clips musicales. Sin embargo, fuera de China recibe el nombre de TikTok, y puedes encontrártela disponible tanto para iOS como para Android.</p>
             </article>
         </section>
+        <!--Estre hr lo utilizamps para cambiar de tema -->
+        <hr>
+        <h2>¿Que noticia te interesa?</h2>
+        <form>
+            <label>Salud
+                <input type="radio" name="gender">
+            </label>
+            <label>Ciencia
+                <input type="radio" name="gender">
+            </label>
+            <label>Economía
+                <input type="radio" name="gender">
+            </label>
+            <label>Tecnología
+                <input type="radio" name="gender">
+            </label>
+            <label>Política   
+                <input type="radio" name="gender">
+            </label>
+        </form>
+        <h2>Que día miras las noticias?</h2>
+        <form>
+            <label>Lunes
+                <input type="checkbox" name="languajes" value="semana">
+            </label>
+            <label>Martes
+                <input type="checkbox" name="languajes" value="semana">
+            </label>
+            <label>Miércoles
+                <input type="checkbox" name="languajes" value="semana">
+            </label>
+            <label>Jueves
+                <input type="checkbox" name="languajes" value="semana">
+            </label>
+            <label>Viernes
+                <input type="checkbox" name="languajes" value="semana">
+            </label>
+            <label>Sábado
+                <input type="checkbox" name="languajes" value="semana">
+            </label>
+            <label>Domingo
+                <input type="checkbox" name="languajes" value="semana">
+            </label>
+        </form>
     </main>
-
     <aside class="contenedor-aside">
         <div class="publicidad">
             <div class="imagen-pubicidad">
@@ -95,18 +134,27 @@
         </div>
         <section>
             <h3>Noticias más vistas del día</h3>
-            <li>
-                <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, neque.</a>
-            </li>
-            <li>
-                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, sed?</a>
-            </li>
-            <li>
-                <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ab!</a>
-            </li>
-            <li>
-                <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, minus?</a>
-            </li>
+            <nav>
+                <ol>
+                  <li>
+                    <a href="politica.html#noticia">Peticiones, Sugerencias, Quejas, Reclamos</a>
+                  </li>
+                  <li>
+                    <a href="ciencia.html#noticia-1">Descubren el asteroide en órbita más rápido del Sistema Solar</a>
+                  </li>
+                  <li>
+                    <a href="salud.html#noticia-covi">Colombia registra 2.448 contagios y 86 muertos por covid-19</a>
+                  </li>
+                  <li>
+                    <a href="tecnologia.html#tecnologia">Un niño de 12 años gana 340.000 euros con la venta de su colección de
+                        imágenes digitales de ballenas</a>
+                  </li>
+                  <li>
+                    <a href="Economia.html#economia">la economía se contrajo un 6,8% en 2020 y se estima un repunte del
+                        crecimiento para 2021-2022</a>
+                  </li>
+                </ol>
+              </nav>
         </section>
         <div class="imagen-pubicidad">
             <div>
@@ -115,7 +163,32 @@
            <h4>Oferta Camara de fotos con un 30% de Descuento!</h4>
         </div>
     </aside>
-
+    <table>
+        <caption>Horario en el que publican nuevas noticias</caption>
+        <tr>
+            <td>LUNES</td>
+            <td>MARTES</td>
+            <td>MIÉRCOLES</td>
+            <td>JUEVES</td>
+            <td>VIERNES</td>
+        </tr>
+        <tr>
+            <td>4:00 AM</td>
+            <td>6:00 AM</td>
+            <td>11.30 AM</td>
+            <td>6.00 PM</td>
+            <td>10:00 PM</td>
+        </tr>
+    </table>
+    <h3>Tu red social favorita</h3>
+        <form>
+            <select name="pets">
+                    <option value="facebook">Facebook</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="youtube">YouTube</option>
+            </select>
+        </form> <br>
     <footer class="footer">
         <div class="contenedor-redes-sosiales">
             <i class="fab fa-facebook"></i>
